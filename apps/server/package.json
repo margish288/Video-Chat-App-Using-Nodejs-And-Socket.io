@@ -1,0 +1,17 @@
+{
+  "name": "chat-server",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsc-watch --onSuccess  \"node dist/index.js\"",
+    "start": "node dist/index",
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "tsc-watch": "^6.0.4",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "socket.io": "^4.7.4"
+  }
+}
